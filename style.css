@@ -1,0 +1,45 @@
+/* @author Gustavo González
+* @version 0.1
+*/
+
+/*=============== layout =============== */
+
+
+
+/*=============== Barra de navegação ===============*/
+
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/spotify.svg') no-repeat;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 15px 10px;
+}
+
+#menuopcoes{
+    color: white;
+}
+
+#menuopcoes:hover{
+    color: #9bf0e1;
+}
+
+/*============= Imagem de Capa ================*/
