@@ -70,4 +70,6 @@ nav.navbar-transparente {
 h1{
     font-size: 100px;
     font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
 }
