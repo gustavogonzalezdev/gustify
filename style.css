@@ -164,3 +164,37 @@ h3{
     font-size: 12px;
     text-transform: uppercase;
 }
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)
+Sem media query para `xs`, já que este é o padrão, no Bootstrap. */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (min-width: 576px) {
+    h1{
+        font-size: 35px;
+    }
+}
+
+/* Dispositivos médios (tablets com 768px ou mais) */
+@media (min-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) {
+    h1{
+        font-size: 80px;
+    }
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {
+    h1{
+        font-size: 100px;
+    }
+}
